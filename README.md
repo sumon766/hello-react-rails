@@ -127,7 +127,7 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Mursedul Islam Sumon**
 
 - GitHub: [@githubhandle](https://github.com/sumon766)
 - Twitter: [@twitterhandle](https://twitter.com/sumon766)
