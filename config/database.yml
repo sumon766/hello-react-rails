@@ -1,0 +1,19 @@
+# PostgreSQL. Make sure you have the 'pg' gem installed.
+#
+#   gem install pg
+#
+#   Ensure the 'pg' gem is defined in your Gemfile
+#   gem 'pg'
+#
+# Configure the database settings for PostgreSQL
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: sumon
+  password: 1122
+
+development:
+  <<: *default
+  database: react_rails_dev
+  host: localhost # You can specify the host here if PostgreSQL is not running locally
