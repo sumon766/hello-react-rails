@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root 'root#index'
+ 
+  get '/api/greetings_random', to: 'greetings#random'
+  root to: 'home#index'
 end
